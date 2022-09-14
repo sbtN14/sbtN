@@ -9,7 +9,7 @@ import Funciones as Cypher                                          #Importa el 
 
 pw = 'jjcc'                                                         #clave para vigenere
 
-op = open('E:\Codes\Lab2\mensajeseguro.txt', 'r')                   #Abre el archivo de texto en modo lectura
+op = open('mensajeseguro.txt', 'r')                   #Abre el archivo de texto en modo lectura
 reading = op.readlines()                                            #Guarda en una variable su contenido
 op.close()                                                          #Cierdda el archivo de texto
 

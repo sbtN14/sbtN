@@ -9,7 +9,7 @@ import hashlib                                                      #Libreria pa
 import Funciones as Cypher                                          #Importa el archivo con las funciones de cifrado
 
 
-inputFile = open('E:\Codes\Lab2\mensajedeentrada.txt', 'r')         #Abrir el archivo de texto con el mensaje
+inputFile = open('mensajedeentrada.txt', 'r')         #Abrir el archivo de texto con el mensaje
 word = inputFile.read()                                             #Leer lineas del archivo y pasarlas a la variable
 inputFile.close()                                                   #Cerrar archivo de texto
 
@@ -24,7 +24,7 @@ h = hashlib.sha256(word.encode('utf-8')).hexdigest()                #aplica la t
 print(f'Hash -> {h}')                                               #Muestra el msg original hasheado
 
 
-message = open('E:\Codes\Lab2\mensajeseguro.txt', 'w')              #Abre el archivo de texto, si no existe, lo crea
+message = open('mensajeseguro.txt', 'w')              #Abre el archivo de texto, si no existe, lo crea
 
 message.write(segundo_rot + '\n')                                   #Escribe el mensaje con cifrados aplicados
 message.write(h)                                                    #Escribe el mensaje original hasheado
