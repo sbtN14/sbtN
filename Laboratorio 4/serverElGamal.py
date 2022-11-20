@@ -1,3 +1,7 @@
+# LABORATORIO 4
+# SEBASTIAN ARAYA
+# JOAQUIN GONZALEZ
+
 import random
 from math import pow
 import socket

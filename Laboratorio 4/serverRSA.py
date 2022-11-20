@@ -1,3 +1,7 @@
+# LABORATORIO 4
+# SEBASTIAN ARAYA
+# JOAQUIN GONZALEZ
+
 from Crypto.PublicKey import RSA, ElGamal # Importamos el módulo RSA
 from Crypto.Cipher import PKCS1_OAEP
 import socket  
